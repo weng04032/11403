@@ -3,28 +3,10 @@
     padding:0;
 
 }
-.box1 {
-    height: 80px;
-    background: lightgreen;
-    text-align: center;
-}
-
-@media(min-width: 540px) {
-    .box1 {
-        background: lightyellow;
-    }
-}
-
-@media(min-width: 768px) {
-    .box1 {
-        background: orange;
-    }
-}
-
-@media(min-width: 920px) {
-    .box1 {
-        background: lightpink;
-    }
+.slide-pic{
+    box-sizing: border-box;
+  width: 100%;
+  height: 250px;
 }
 
 body{
